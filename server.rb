@@ -68,7 +68,7 @@ get "/matches/:id" do |match_id|
     ]
   else
     [
-      403,
+      404,
       { "Content-Type" => "application/json" },
       []
     ]
